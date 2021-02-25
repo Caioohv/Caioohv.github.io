@@ -759,7 +759,7 @@ div{
 
 
 .rodape{
-    height: 18vh;
+
     width: 70vw;
 
     padding: 1vh 1vw;
@@ -771,12 +771,11 @@ div{
 }
 
 .linktree{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     
     align-items: flex-end;
     justify-content: right;
@@ -801,13 +800,12 @@ div{
 
 
 .contato{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
 
     position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     
     align-items: flex-start;
     justify-content: left;
