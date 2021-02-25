@@ -11,7 +11,7 @@
     --azul-claro : #66FCF1;
     --azul-escuro: #45A29E;
 
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
@@ -647,6 +647,9 @@ video {
 
 body{
     background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div{
@@ -787,10 +790,10 @@ div{
 }
 .linktree h1{
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 .linktree a{
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1.5rem;
     color: var(--cinza-c2);
     
@@ -818,10 +821,10 @@ div{
 }
 .contato h1{
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 .contato a{
-    font-weight: 400;
+    font-weight: 200;
     margin-top: 0.3rem;
     font-size: 1.2rem;
     color: var(--cinza-c2);
