@@ -8,6 +8,29 @@
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="estilo.css">
 
+    <script>
+        function idade(){
+            var d = new Date,
+            ano_atual = d.getFullYear(),
+            mes_atual = d.getMonth()+1,
+            dia_atual = d.getDate;
+
+            var ano = 2002, mes = 8, dia = 21;
+
+            idade = ano_atual - ano;
+
+            if(mes_atual < mes || (mes_atual == mes && dia_atual < dia)){
+                idade--;
+            }
+
+            return idade;
+
+        }
+
+        document.getElementById("idd").innerHTML="Me chamo Caio, natural de Ouro Branco (MG). Tenho "+idade()+" Anos";
+
+    </script>
+
     
     <title>Caio Henrique Vieira Costa</title>
 </head>
@@ -24,7 +47,21 @@
         <div class="conteudo">
             <div class="direita">
                 <div class="tudo">
-                
+                    
+                    <h1>Sobre mim</h1>
+                    <hr class="solid">
+                    <h3>Quem eu sou?</h3>
+                    <p>Me chamo Caio, natural de Ouro Branco (MG), e tenho 18 Anos.</p>
+                    <p>Sempre me interessei por tecnologia: Quando era criança, sonhava em produzir jogos. Desde então, procurei
+                        caminhos para que isso acontecesse, até que entrei no IFMG. Nesse momento, abriu-se um novo mundo: eu descobri que me interessava por diversos assuntos, diversas tecnologias, 
+                        diversos caminhos dentro da computação. </p>
+                    <p>Desde o início do curso, sempre pesquisei bastante sobre os assuntos apresentados e também sobre outros assuntos de meu interesse, os quais não estariam presentes na grade curricular.</p>
+                    <p>Atualmente estou estudando sobre tecnologias que atuam na WEB, e utilizo Linux (Debian) como sistema operacional.</p>
+
+ 
+
+
+                    
                     <h1>Formação</h1>
                     <hr class="solid">
                     <h3>Ensino Fundamental (1º grau)</h3>
