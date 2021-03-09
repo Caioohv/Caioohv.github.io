@@ -602,6 +602,11 @@ div{
   }
 
 }
+@media (max-width: 388px){
+  .titulos{
+    text-align: center;
+  }
+}
 
 
 
