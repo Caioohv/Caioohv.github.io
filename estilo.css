@@ -757,10 +757,12 @@ div{
 }
 @media (max-width: 800px){
   .linktree h1{
-    font-size: 1.6rem;
+    
+    text-align: center;
   }
   .contato h1{
-    font-size: 1.6rem;
+    
+    text-align: center;
   }
 }
 
