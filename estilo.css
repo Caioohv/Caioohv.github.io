@@ -755,6 +755,14 @@ div{
     color: var(--cinza-c2);
     
 }
+@media (max-width: 800px){
+  .linktree h1{
+    font-size: 1.6rem;
+  }
+  .contato h1{
+    font-size: 1.6rem;
+  }
+}
 
 
 .contato{
@@ -802,35 +810,3 @@ div{
     justify-content: left;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
