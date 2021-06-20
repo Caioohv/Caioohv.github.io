@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&family=Oxygen:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 :root{
     font-size: 10px;
     /* Cor 1 */
     --cor-1: #660549;
-    --cor-1-light: #ff2cc0;
-    --cor-1-lighter: #ff00b3;
+    --cor-1-light: #ff33c2;
+    --cor-1-lighter: #ff85db;
     --cor-1-dark: #541A43;
 
     /* Cor 2 */
@@ -66,9 +66,9 @@ body{
     font-size: 2rem;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    color: var(--cor-1-lighter);
+    color: var(--cor-light);
     text-decoration: none;
-    transition: all 0.25s ease;
+    transition: all 0.2s ease;
 }
 
 .nav a{
@@ -76,17 +76,24 @@ body{
 }
 
 .logo{
-    object-fit: cover;
-    width: 40px;
+    flex: 1;
+    
+}
+#logo{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5rem;
+    padding-top: 5px
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.content h1{
-    color: var(--cor-light);
-    font-size: 6rem;
+@media screen and (max-width: 640px){
+    .links{
+        visibility: hidden;
+    }
+    .nav{
+        /* justify-content: space-around; */
+    }
+    #logo{
+        flex: 0;
+    }
+    
 }
