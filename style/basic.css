@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300&family=PT+Serif&family=Red+Hat+Display:wght@300&display=swap');
+
+:root{
+  --preto           : #0B0C10;
+  --cinza           : #1F2833;
+  --branco-2        : #fafafa;
+  --branco          : #f1faee;
+  --color-1         : #457b9d;
+  --color-1-light   : #a8dadc;
+  --color-1-dark    : #1d3557;
+  --color-1-darker  : #152a47;
+  --color-highlight : #e63946;
+
+
+  font-size: 10px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  height: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  background-color: var(--branco);
+  height: 100%;
+}
+
+.presentation {
+  margin: 3rem;
+  padding: 2rem;
+
+  border-radius: 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-1-dark);
+}
+
+.presentation .foto {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 100px;
+}
+
+.presentation h1, .presentation h2 {
+  margin-bottom: 0;
+}
+
+.presentation h1 {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 3.6rem;
+  margin-top: 1.5rem;
+  color: var(--branco-2);
+}
+.presentation h2 {
+  font-family: 'Red Hat Display', serif;
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+  color: var(--branco);
+}
+
+.linktree {
+  background-color: var(--branco);
+  border: 1px solid var(--color-1-dark);
+  margin: 3rem;
+  padding: 2rem;
+
+  border-radius: 1rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.linktree h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.linktree a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+
+  width: 90%;
+
+  background-color: var(--color-1-dark);
+  color: var(--branco);
+
+  border-radius: 1rem;
+  padding: 1.6rem;
+  margin: 1rem;
+}
+
+.linktree a:link, .linktree a:visited {
+  background-color: var(--color-1-dark);
+  color: var(--branco);
+}
+
+.linktree a:hover {
+  background-color: var(--color-1-darker);
+  color: var(--branco-2);
+  transition: ease 0.3s;
+}
