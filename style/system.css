@@ -126,18 +126,55 @@ body {
 }
 
 .body-text-light {
-  color: var(--base-white);
+  color: var(--gray-4);
   font-family: 'Varela', sans-serif;
   font-size: 1.5rem;
   max-width: 40ch;
   line-height: 1.3;
 }
 .body-text-dark {
-  color: var(--base-black);
+  color: var(--gray-2);
   font-family: 'Varela', sans-serif;
   font-size: 1.5rem;
   max-width: 70ch;
   line-height: 1.4;
+}
+
+.about-link{
+  margin-top: 1.3rem;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-link a { 
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 700;
+
+  padding: 1.2rem;
+  border-radius: 0.4rem;
+
+  background-color: var(--gray-3);
+  
+  color: var(--gray-6);
+}
+
+.about-link a:hover { 
+  transition: 0.3s ease-in-out;
+
+  background-color: var(--gray-2);
+  
+  color: var(--gray-7);
+}
+
+
+@media screen and (max-width: 1200px) {
+  .about-link{
+    width: 80%;
+  }
 }
 
 
@@ -186,6 +223,21 @@ body {
     max-width: 50ch;
   }
 
+}
+
+@media screen and (max-width: 630px) {
+  .about-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-link a{
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 530px) {
