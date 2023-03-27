@@ -10,22 +10,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border-radius: 1rem 0 0 1rem;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
   padding: 3rem;
 
 }
 
-.about {
+.curriculum {
   background-color: var(--gray-7);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 0 1rem 1rem;
 
   padding: 3rem;
 
 }
+
+
 
 
 @media screen and (max-width: 1200px) {
@@ -70,10 +72,10 @@
   }
 
   .body-text-light {
-    max-width: 50ch;
+    max-width: 60ch;
   }
   .body-text-dark {
-    max-width: 50ch;
+    max-width: 60ch;
   }
 
 }
